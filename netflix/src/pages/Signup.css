@@ -1,0 +1,106 @@
+/* Signup.css */
+
+.signupapage {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/530fc327-2ddb-4038-a3f0-2da2d9ccede1/9c547c8a-e707-4bdb-bdbc-843f134dd2a6/IN-en-20230619-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headera {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    gap: 70%;
+}
+
+.logo {
+  width: 240px;
+}
+
+.btna {
+  width: 160px;
+  height: 48px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e50914;
+  border-radius: 4px;
+  cursor: pointer;
+  border:none;
+  text-align: center;
+  border:none;
+}
+
+
+.btna:hover {
+  opacity: 0.7;
+}
+
+.body {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.text h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.text h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.text h6 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.forma input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+}
+
+.forma button {
+  width: 440px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forma button:hover {
+  opacity: 0.7;
+}

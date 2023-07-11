@@ -1,0 +1,33 @@
+.hero-section {
+    background-color: #b4bd35;
+    padding: 50px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .sec-a {
+    flex-basis: 1;
+    padding-right: 50px;
+  }
+  
+  .sec-b {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .sec-c {
+    margin-bottom: 20px;
+  }
+  
+  .images {
+    flex-basis: 1;
+  }
+  .hero-image {
+    width: 500;
+    height: 400;
+  }
+  

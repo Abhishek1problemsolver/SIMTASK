@@ -1,0 +1,77 @@
+.profileScreen {
+    height: 110vh;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .profileScreen__body {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profileScreen h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profileScreen__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between
+  }
+  
+  .profileScreen__avatarContainer {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profileScreen__avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profileScreen__details {
+    margin-left: 20px;
+  }
+  
+  .profileScreen__details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .profileScreen__plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  .profileScreen__plans h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .profileScreen__signOut {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .profileScreen__signOut:hover {
+    background-color: #ff0f1e;
+  }
+  

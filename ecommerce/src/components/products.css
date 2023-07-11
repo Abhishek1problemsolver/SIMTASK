@@ -1,0 +1,59 @@
+/* Products.css */
+.sectiona {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 50px;
+  }
+  
+  .container {
+    width:100vw;
+    margin: 0 auto;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .productsa {
+    width: 300px;
+
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anchor {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 200px; 
+    height: 200px; 
+    object-fit: contain; 
+    border-radius: 2px; 
+  }
+  
+  .text_a {
+    color: #999;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .text_b {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .price {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Add other styles for the remaining classes */
+  

@@ -1,0 +1,164 @@
+.App {
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url("https://wallpaperaccess.com/full/1540024.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  animation: translateBackground 80s linear infinite;
+}
+@keyframes translateBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.app-title {
+   display: flex;
+    font-size: 72px;
+    margin-bottom: 70px;
+    width: 99vw;
+    flex-direction: column;
+    align-items: center;
+}
+.app-title h1{
+  width: 100%;
+}
+form{
+    gap:8px;
+    left: 40%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+
+}
+.city-input {
+    padding: 10px;
+    margin-right: 21px;
+    border: 1px solid #ccc;
+    padding-left: 43px;
+    padding-right: 104px;
+    border-radius: 23px;
+    outline: none;
+}
+
+.search-button {
+  padding: 9px 27px;
+    background-color: #063b74;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.search-button:hover{
+  background-color: #174678;
+}
+
+.error-message {
+  color: #ff0000;
+  margin: 20px 0;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-between;
+    left: 7%;
+    width: 90vw;
+    position: relative;
+    top:60px;
+}
+
+.weather-info {
+    gap: 53px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+}
+
+.weather-icon {
+  margin-right: 20px;
+}
+
+.weather-details {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    align-content: stretch;
+
+}
+
+.city-name {
+  font-size: 32px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.temperature {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 18px;
+  margin: 0;
+}
+
+.max-temp,
+.min-temp,
+.feels-like,
+.humidity,
+.wind-speed,
+.pressure {
+  margin: 5px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-size: larger;
+}
+
+@media (max-width: 480px) {
+  .App {
+    font-size: 16px;
+  }
+
+  .app-title {
+    font-size: 20px;
+  }
+
+  .city-input {
+    width: 200px;
+    margin-right: 5px;
+  }
+
+  .search-button {
+    padding: 6px 12px;
+  }
+
+  .city-name {
+    font-size: 24px;
+  }
+
+  .temperature {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}

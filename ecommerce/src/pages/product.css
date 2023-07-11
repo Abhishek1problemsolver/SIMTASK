@@ -1,0 +1,171 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  /* Section styles */
+  .my-custom-section {
+    padding: 20px;
+  }
+  
+  /* Container styles */
+  .my-custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Wrapper styles */
+  .my-custom-wrapper {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Image styles */
+  .my-custom-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Content styles */
+  .my-custom-content {
+    margin-left: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Category styles */
+  .my-custom-category {
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  /* Title styles */
+  .my-custom-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  
+  /* Rating styles */
+  .my-custom-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Star styles */
+  .my-custom-stars {
+    color: #FFD700; /* Golden color for stars */
+  }
+  
+  /* Reviews styles */
+  .my-custom-reviews {
+    font-size: 12px;
+    color: #888;
+    margin-left: 5px;
+  }
+  
+  /* Description styles */
+  .my-custom-description {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Options styles */
+  .my-custom-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-evenly;
+    align-content: stretch;
+  }
+  
+  /* Price styles */
+  .my-custom-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #B12704; /* Amazon's price color */
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons styles */
+  .my-custom-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Buy button styles */
+  .my-custom-buy {
+    background-color: #f0c14b; /* Amazon's buy button color */
+    color: #111;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  /* Add button styles */
+  .my-custom-add {
+    background-color: #ff9900; /* Amazon's add to cart button color */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Icon button styles */
+  .my-custom-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Icon SVG styles */
+  .my-custom-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #999;
+  }
+  
+  /* Footer styles */
+  .my-custom-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  
+  /* Border separator styles */
+  .my-custom-border {
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  svg{
+    width:17%;
+  }

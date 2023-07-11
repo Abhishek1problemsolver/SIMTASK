@@ -1,0 +1,28 @@
+.contains{
+    gap: 10px;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 2%;
+    align-items: center;
+}
+.btn{
+    color:white;
+    background-color: rgb(63, 139, 206);
+    display: flex;
+    outline: none;
+    border: none;
+    width: 40vw;
+    height: 8vh;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(25, 99, 179);
+}
